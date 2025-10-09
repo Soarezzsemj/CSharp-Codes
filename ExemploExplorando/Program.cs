@@ -2,13 +2,79 @@
 using System.Globalization;
 
 
-string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+Queue<int> fila = new Queue<int>();
+// chama o queue e tipa o dado no <> e da o nome da variavel
+// faz um new queue e o nome do tipo do dado com o ()
 
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
 
-foreach (string linha in linhas)
+foreach(int item in fila )
 {
-    Console.WriteLine(linha);
+    Console.WriteLine(item);
+    
 }
+
+Console.WriteLine($"removendo o elemento usando o dequeue: {fila.Dequeue()}");
+// dequeue so passa fechado 
+// remove o primeiro elemento 
+fila.Enqueue(10);
+foreach(int item in fila )
+{
+    Console.WriteLine(item);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// new ExemploExcecao().Metodo1();
+
+
+
+
+
+
+
+// try // ele vai executar o codigo em baixo e se der erro vai passar a exceção para o catch
+// {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+//     foreach (string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+//
+// }
+// catch (FileNotFoundException ex) // catch filtrado para mostrar a exceção se o arquivo nao foi encontrado
+// {
+//     Console.WriteLine($"ocorreu um erro, arquivo nao encontrado. {ex.Message}");
+// }
+// catch (DirectoryNotFoundException ex)
+// {
+//     Console.WriteLine($"ocorreu um erro, pasta nao encontrada. {ex.Message}");
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"ocorreu um erro. {ex.Message}");
+// }
+// finally // bloco de codigo ao final do processamento independente se acontecer erro ou nao 
+// {
+//     Console.WriteLine($"passou, finally agr");
+// }
+
+
 
 
 

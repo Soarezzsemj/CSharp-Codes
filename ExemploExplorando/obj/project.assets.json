@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/Soarezz/.nuget/packages/": {}
+    "C:\\Users\\carlo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Soarezz/Desktop/Csharp/ExemploExplorando/ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "/Users/Soarezz/Desktop/Csharp/ExemploExplorando/ExemploExplorando.csproj",
-      "packagesPath": "/Users/Soarezz/.nuget/packages/",
-      "outputPath": "/Users/Soarezz/Desktop/Csharp/ExemploExplorando/obj/",
+      "projectPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj",
+      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Soarezz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
