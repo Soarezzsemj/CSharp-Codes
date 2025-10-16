@@ -4,45 +4,67 @@ using System.Globalization;
 
 
 
+// TUPLAS
+// (int, string, string) tupla = (18, "Carlos", "Eduardo");
+// declara o tipo do dado -> nome da variavel -> e o dado
+// outras sintaxes de tuplas
+// valuetuple<int, string, string> outroexeplo = (18, "Carlos", "Eduardo");
+// var outroexemplo2 = Tuple.Create(18, "Carlos", "Eduardo");
 
-Dictionary<string, string> estados = new Dictionary<string, string>(); 
-// o primeiro string é o tipo da chave
-// segunda string é o valor que vai ser armazenado
+(int id, string nome, string sobrenome) tupla = (18, "Carlos", "Eduardo");
+// declara o tipo do dado com o nome dela-> nome da variavel->e o dado
+Console.WriteLine(tupla.id);
+Console.WriteLine(tupla.nome);
+Console.WriteLine(tupla.sobrenome);
+// uma forma de chamar uma tupla o item 1 é o 18, o item 2 é carlos e o 3 é o eduardo
 
-estados.Add("SP", "São Paulo");
-//SP É A CHAVE E sao paulo so vai ser vinculado A chave
-//SAO PAULO É O CONTEUDO ARMAZENADO
 
-estados.Add("BA", "Bahia");
-estados.Add("DF", "Brasília");
 
-Console.WriteLine($"Acessando um valor individual pela a chave {estados["DF"]}");
 
-foreach (var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
 
-Console.WriteLine($"----------------------------------");
-estados.Remove("BA");
-estados["SP"] = "Sao Paulo - com um novo valor";
 
-foreach (var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
 
-string chave = "BA";
-Console.WriteLine($"Verificando o elemento: {chave}");
 
-if (estados.ContainsKey(chave))
-{ // ContainsKey é para ver se a chave existe la
-    Console.WriteLine($"Valor Existente: {chave}");
-}
-else
-{
-    Console.WriteLine($"Valor Não Existente, Adicione a chave: {chave}");
-}
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>(); 
+// // o primeiro string é o tipo da chave
+// // segunda string é o valor que vai ser armazenado
+//
+// estados.Add("SP", "São Paulo");
+// //SP É A CHAVE E sao paulo so vai ser vinculado A chave
+// //SAO PAULO É O CONTEUDO ARMAZENADO
+//
+// estados.Add("BA", "Bahia");
+// estados.Add("DF", "Brasília");
+//
+// Console.WriteLine($"Acessando um valor individual pela a chave {estados["DF"]}");
+//
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+//
+// Console.WriteLine($"----------------------------------");
+// estados.Remove
+// estados["SP"] = "Sao Paulo - com um novo valor";
+//
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+//
+// string chave = "BA";
+// Console.WriteLine($"Verificando o elemento: {chave}");
+//
+// if (estados.ContainsKey(chave))
+// { // ContainsKey é para ver se a chave existe la
+//     Console.WriteLine($"Valor Existente: {chave}");
+// }
+// else
+// {
+//     Console.WriteLine($"Valor Não Existente, Adicione a chave: {chave}");
+// }
 
 
 
