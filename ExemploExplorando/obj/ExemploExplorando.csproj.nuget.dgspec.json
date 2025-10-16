@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Soarezz/RiderProjects/CSharp-Codes/ExemploExplorando/ExemploExplorando.csproj": {}
+    "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "/Users/Soarezz/RiderProjects/CSharp-Codes/ExemploExplorando/ExemploExplorando.csproj": {
+    "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Soarezz/RiderProjects/CSharp-Codes/ExemploExplorando/ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "/Users/Soarezz/RiderProjects/CSharp-Codes/ExemploExplorando/ExemploExplorando.csproj",
-        "packagesPath": "/Users/Soarezz/.nuget/packages/",
-        "outputPath": "/Users/Soarezz/RiderProjects/CSharp-Codes/ExemploExplorando/obj/",
+        "projectPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\ExemploExplorando.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Soarezz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

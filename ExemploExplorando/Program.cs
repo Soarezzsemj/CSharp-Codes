@@ -2,6 +2,59 @@
 using System.Globalization;
 
 
+// IF ELSE NORMAL
+int numero = 20;
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine($"o numero {numero} é par");
+}
+else
+{
+    Console.WriteLine($"o numero {numero} é Impar");
+}
+
+
+// IF TERNARIO 
+
+int numero2 = 32;
+bool ehpar = false;
+
+ehpar = numero2 % 2 == 0;
+
+Console.WriteLine($"O numero {numero2} é " + (ehpar ? "par" : "impar"));
+ 
+
+
+
+
+
+
+//DECONSTRUCT
+// Pessoa p1 = new Pessoa("Carlos", "Eduardo"); // construtor
+//
+// (string nome, string sobrenome) = p1; // desconstrutor
+//
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // TUPLAS
@@ -11,15 +64,36 @@ using System.Globalization;
 // valuetuple<int, string, string> outroexeplo = (18, "Carlos", "Eduardo");
 // var outroexemplo2 = Tuple.Create(18, "Carlos", "Eduardo");
 
-(int id, string nome, string sobrenome) tupla = (18, "Carlos", "Eduardo");
+// (int id, string nome, string sobrenome) tupla = (18, "Carlos", "Eduardo");
 // declara o tipo do dado com o nome dela-> nome da variavel->e o dado
-Console.WriteLine(tupla.id);
-Console.WriteLine(tupla.nome);
-Console.WriteLine(tupla.sobrenome);
+// Console.WriteLine(tupla.id);
+// Console.WriteLine(tupla.nome);
+// Console.WriteLine(tupla.sobrenome);
 // uma forma de chamar uma tupla o item 1 é o 18, o item 2 é carlos e o 3 é o eduardo
 
 
 
+// LeituraArquivo arquivo = new LeituraArquivo();
+//
+// var (sucesso, linhas, Leituralinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// var (sucesso, linhas, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+// se eu quiser descartar algum tipo é so por o _ no lugar
+
+// if (sucesso)
+// {
+//
+//     Console.WriteLine("Quantidade de linhas do arquivo -> " + Leituralinhas);
+//     foreach (string leituralinhas in linhas)
+//     {
+//         Console.WriteLine(leituralinhas);
+//     }
+//     
+// }
+// else
+// {
+//     Console.WriteLine("nao foi possivel ler o arquivo");
+// }
 
 
 

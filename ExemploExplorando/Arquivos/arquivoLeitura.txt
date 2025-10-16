@@ -1,1 +1,2 @@
 teste de leitura desse arquivo
+esta no Arquivos/arquivoLeitura.txt

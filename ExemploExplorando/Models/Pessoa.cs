@@ -20,6 +20,14 @@ namespace ExemploExplorando.Models
             // em maiusculo sao as proprieddes 
 
         }
+
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            // tem q ter o out antes quando for fazer uma Deconstruct
+            
+            nome = Nome; // a variavel recebe a propriedade pq é maiusculo
+            sobrenome = Sobrenome;
+        }
         private int _idade;
 
         private string _sobrenome;
