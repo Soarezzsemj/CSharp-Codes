@@ -71,3 +71,6 @@ C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\bin\Debug\net9.0\Exe
 C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.pdb
 C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\obj\Debug\net9.0\ref\ExemploExplorando.dll
+C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\carlo\RiderProjects\CSharp-Codes\ExemploExplorando\obj\Debug\net9.0\ExemploE.B7F01285.Up2Date
