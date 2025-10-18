@@ -3,21 +3,50 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
+//LEITURA DE UM ARQUIVO JSON LER EM OBJETO
 
-DateTime dataAtual = DateTime.Now;
 
-List<Venda> listaVendas = new List<Venda>();
+// cria uma classe nova e seta os public <tipo do ngc> e o nome no json
 
-Venda v1 = new Venda(1, "material", 25.00M, dataAtual);
-Venda v2 = new Venda(2, "carro", 125.00M, dataAtual);
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+//aqui ele lê o json
 
-listaVendas.Add(v1);
-listaVendas.Add(v2);
+List<Vendas> listaVendas = JsonConvert.DeserializeObject<List<Vendas>>(conteudoArquivo);
+// faz uma lista de <Vendas> o vendas é a classe, e passa pelo o newtonsoft pegando esse vendas e a string q lê o json
 
-string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+foreach(Vendas venda in listaVendas)
+{
+    Console.WriteLine($"ID: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data da venda{venda.DataVenda}");
+}
+// foreach p percorrer o json
 
-File.WriteAllText("Arquivos/vendas.json", serializado);
-Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+//
+// List<Venda> listaVendas = new List<Venda>();
+//
+// Venda v1 = new Venda(1, "material", 25.00M, dataAtual);
+// Venda v2 = new Venda(2, "carro", 125.00M, dataAtual);
+//
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+//
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+//
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+// Console.WriteLine(serializado);
 
 
 

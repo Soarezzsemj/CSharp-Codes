@@ -1,13 +1,13 @@
 [
   {
     "Id": 1,
-    "Produto": "material",
+    "Nome_Produto": "material",
     "Preco": 25.00,
     "DataVenda": "2025-10-17T01:21:12.7864066-03:00"
   },
   {
     "Id": 2,
-    "Produto": "carro",
+    "Nome_Produto": "carro",
     "Preco": 125.00,
     "DataVenda": "2025-10-17T01:21:12.7864066-03:00"
   }
