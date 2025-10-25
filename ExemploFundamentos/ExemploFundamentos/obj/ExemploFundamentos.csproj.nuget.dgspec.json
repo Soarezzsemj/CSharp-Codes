@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos/ExemploFundamentos.csproj": {}
+    "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
   },
   "projects": {
-    "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/ExemploFundamentos.Common.csproj": {
+    "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/ExemploFundamentos.Common.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
         "projectName": "ExemploFundamentos.Common",
-        "projectPath": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/ExemploFundamentos.Common.csproj",
-        "packagesPath": "/Users/Soarezz/.nuget/packages/",
-        "outputPath": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/obj/",
+        "projectPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Soarezz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos/ExemploFundamentos.csproj": {
+    "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos/ExemploFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
         "projectName": "ExemploFundamentos",
-        "projectPath": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos/ExemploFundamentos.csproj",
-        "packagesPath": "/Users/Soarezz/.nuget/packages/",
-        "outputPath": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos/obj/",
+        "projectPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Soarezz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/ExemploFundamentos.Common.csproj": {
-                "projectPath": "/Users/Soarezz/Desktop/ExemploFundamentos/ExemploFundamentos.Common/ExemploFundamentos.Common.csproj"
+              "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
+                "projectPath": "C:\\Users\\carlo\\RiderProjects\\CSharp-Codes\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj"
               }
             }
           }
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

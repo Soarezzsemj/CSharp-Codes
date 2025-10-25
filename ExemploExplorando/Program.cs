@@ -277,9 +277,6 @@ foreach(Vendas venda in listaVendas)
 
 
 
-
-
-
 // try // ele vai executar o codigo em baixo e se der erro vai passar a exceção para o catch
 // {
 //     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
