@@ -1,4 +1,8 @@
 ﻿using ExemploPOO.Models;
+using ExemploPOO.Interfaces;
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(4, 5));
 
 
 
